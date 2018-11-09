@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #fff !important; */
+    border-bottom: 1px solid #3498db;
+}
+
+.bg-info {
+    /* background-color: rgba(255,255,255,0.8) !important; */
+    background-color: #1e8bc3 !important;
+}
+
+.navbar-light .navbar-brand {
+    letter-spacing: 0.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: lowercase;
+    /* color:rgb(0, 126, 172); */
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 2.5px 1.5px #34495e;
+}
+
+.navbar-light .navbar-nav .nav-link .nav-link-item {
+    /* color:rgba(0, 126, 172,0.75); */
+    color: #ecf0f1;
+    /* text-shadow: 1px 1px #34495e; */
+    font-weight: 400;
+    padding: 0.50rem 0 0.25rem 0;
+    background-color: transparent;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link .nav-link-item:hover,
+.navbar-light .navbar-nav .nav-link .nav-link-item:focus {
+    border-bottom-color: rgba(0, 126, 172,0.45);
+}
+
+.navbar-light .navbar-nav .active>.nav-link .nav-link-item {
+    color: #fff;
+    text-shadow: 1px 1px #34495e;
+    border-bottom-color: rgba(0, 126, 172,0.9);
+}
+
+.fas.fa-bars {
+    color:#eeeeee;
+    padding: 0.25rem 0.10rem;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #eeeeee;
+}
+
+.jumbotron {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../img/stanislav-kondratiev-671841-unsplash.jpg);
+    top:0;
+    padding:0;
+    margin-bottom:0;
+}
+
+.jumbotron .container {
+    height: 88vh;
+    width: 90%;
+    text-align: center;
+    padding-top:10rem;
+}
+
+.jumbotron .container h1{
+    color: #fff;
+}
+
+.jumbotron .container p.lead {
+    color: #eeeeee;
+}
+#jumbotron-note {
+    width: 100%;
+    border-top: 1px solid #dadfe1;
+    margin-top: 0.3rem;
+}
+
+@media (max-width:800px) {
+    .jumbotron > .container > .display-4 {
+        font-size: 2rem;
+    }
+    .jumbotron > .container > p {
+        font-size: 1.1rem;
+    }
+}
+
+.jumbotron .container p {
+    color: #eeeeee;
+}
+
+.jumbotron .container .btn-info {
+    background-color: #1e8bc3;
+    border-color: #1e8bc3;
+}
+
+.jumbotron .container .btn-info:hover {
+    background-color: #2574a9;
+    border-color: #2574a9;
+}
+#photo-ref-container {
+    height:12vh;
+}
+#photo-ref {
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    padding:4px 6px;
+    font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    line-height:1.2;
+    display:inline-block;
+    border-radius:3px;
+}
+
+section#courses {
+    height: 100vh;
+}
+
+#courses .container {
+    padding-top: 2.5rem;
+}
+
+div.course:hover {
+    transform: scale(1.02);
+    /* box-shadow: 2px #95a5a6; */
+    box-shadow: 2px 2px  #95a5a6;
+
+}
+
