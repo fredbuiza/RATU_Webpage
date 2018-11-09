@@ -1,0 +1,19 @@
+{
+  "name": "ratu_webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredbuiza/RATU_Webpage.git"
+  },
+  "author": "Frederick Buiza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredbuiza/RATU_Webpage/issues"
+  },
+  "homepage": "https://github.com/fredbuiza/RATU_Webpage#readme"
+}
