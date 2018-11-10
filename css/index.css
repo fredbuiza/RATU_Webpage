@@ -1,5 +1,8 @@
 /***color pallete
 #3a606e (grayish)
+shade of #3a606e
+#c9d3d7
+
 #05a8aa (moss green)
 #ffcff (shade of white)
 #ffbc42 (yellowish)
@@ -154,19 +157,28 @@ body {
     border-radius:3px;
 }
 
-section#courses {
+section{
     height: 100vh;
 }
 
-#courses .container {
+.courses {
     padding-top: 2.5rem;
 }
 
 div.course:hover {
     transform: scale(1.02);
-    /* box-shadow: 2px #95a5a6; */
-    box-shadow: 2px 2px  #95a5a6;
+    box-shadow: 2px 2px #95a5a6;
 
+}
+
+#math-courses {
+    background-color: #c9d3d7;
+}
+
+#clerical-courses {
+    background: url(../img/clerical_bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    color: #fff;
 }
 
 
