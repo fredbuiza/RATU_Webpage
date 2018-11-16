@@ -4,7 +4,7 @@ shade of #3a606e
 #c9d3d7
 
 #05a8aa (moss green)
-#ffcff (shade of white)
+#fffcff (shade of white)
 #ffbc42 (yellowish)
 
 #247ba0 (bluish)
@@ -162,17 +162,10 @@ body {
     display:inline-block;
     border-radius:3px;
 }
-
-.courses {
-    padding-top: 2.5rem;
-}
-
 div.course:hover {
     transform: scale(1.02);
     box-shadow: 2px 2px #95a5a6;
-
 }
-
 #math-courses {
     background-color: #c9d3d7;
 }
@@ -183,5 +176,17 @@ div.course:hover {
     color: #fff;
 }
 
+.subject {
+    border: 1px solid #c9d3d7;
+    background: #fffcff;
+}
 
+.subject img {
+    margin: 5px 0;
+    vertical-align: middle;
+}
 
+.subject a.text-primary:hover {
+    color: #05a8aa !important;
+    text-decoration: none;
+}
