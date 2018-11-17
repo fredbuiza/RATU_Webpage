@@ -14,6 +14,9 @@ shades of #247ba0
 
 **/
 
+/***GENERAL CSS CHANGES
+***/
+
 html {
     scroll-behavior: smooth;
 }
@@ -42,13 +45,15 @@ body {
     background-color: #247ba0 !important;
 }
 
+
+/****NAVIGATION CSS
+****/
+
 .navbar {
     font-family: Arial, Helvetica, sans-serif;
     /* background: #fff !important; */
     border-bottom: 1px solid #3787a8;
 }
-
-
 
 .navbar-light .navbar-brand {
     letter-spacing: 0.1rem;
@@ -162,13 +167,23 @@ body {
     display:inline-block;
     border-radius:3px;
 }
+
+/***COURSES SECTION
+***/
+
 div.course:hover {
     transform: scale(1.02);
     box-shadow: 2px 2px #95a5a6;
 }
-#math-courses {
-    background-color: #c9d3d7;
+
+
+#math-courses a:hover,
+#clerical-courses a:hover {
+    color: #05a8aa !important;
+    text-decoration: none;
 }
+
+/*CLERICAL COURSES SECTION*/
 
 #clerical-courses {
     background: url(../img/clerical_bg.jpg) no-repeat fixed center;
@@ -176,25 +191,39 @@ div.course:hover {
     color: #fff;
 }
 
-.subject {
-    border: 1px solid #c9d3d7;
-    background: #fffcff;
-}
-
-.subject img {
-    margin: 5px 0;
-    vertical-align: middle;
-}
-
-.subject a.text-primary:hover,
-#clerical-courses a:hover {
-    color: #05a8aa !important;
-    text-decoration: none;
-}
-
 #clerical-courses p.lead {
     color: #c9d3d7 !important;
 }
 .clerical-subject {
     background-color: rgba(219,226,228,0.3);
+}
+.clerical-subject:hover {
+    background-color: rgba(219,226,228,0.9);
+}
+.clerical-subject:hover p {
+    color: #3a606e !important;
+}
+.clerical-subject:hover h2,
+.clerical-subject:hover a {
+    color: #247ba0 !important;
+}
+
+/*MATH COURSES SECTION*/
+
+#math-courses {
+    background-color: #c9d3d7;
+}
+
+.math-subject {
+    border: 1px solid #c9d3d7;
+    background: #fffcff;
+}
+
+.math-subject img {
+    margin: 5px 0;
+    vertical-align: middle;
+}
+
+.math-subject:hover {
+    transform: scale(0.98);
 }
