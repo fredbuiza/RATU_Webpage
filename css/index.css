@@ -186,7 +186,15 @@ div.course:hover {
     vertical-align: middle;
 }
 
-.subject a.text-primary:hover {
+.subject a.text-primary:hover,
+#clerical-courses a:hover {
     color: #05a8aa !important;
     text-decoration: none;
+}
+
+#clerical-courses p.lead {
+    color: #c9d3d7 !important;
+}
+.clerical-subject {
+    background-color: rgba(219,226,228,0.3);
 }
