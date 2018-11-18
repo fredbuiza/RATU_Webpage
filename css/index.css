@@ -188,10 +188,10 @@ div.course:hover {
 #clerical-courses {
     background: url(../img/clerical_bg.jpg) no-repeat fixed center;
     background-size: cover;
-    color: #fff;
 }
 
-#clerical-courses p.lead {
+#clerical-courses p.lead,
+#english-courses p.lead {
     color: #c9d3d7 !important;
 }
 .clerical-subject {
@@ -226,4 +226,14 @@ div.course:hover {
 
 .math-subject:hover {
     transform: scale(0.98);
+}
+
+#english-courses {
+    background: url(../img/english_bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.card.english-subject:hover{
+    background-color: rgba(255,255,255,0.8);
+
 }
