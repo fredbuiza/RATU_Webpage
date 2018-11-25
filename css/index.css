@@ -233,7 +233,19 @@ div.course:hover {
     background-size: cover;
 }
 
-.card.english-subject:hover{
+.card.english-subject{
     background-color: rgba(255,255,255,0.8);
+}
 
+.card.english-subject:hover {
+    background-color: rgba(255,255,255,1.0);
+}
+
+.english-subject .card-footer a:hover{
+    text-decoration: none; 
+    color: #05a8aa !important;
+}
+footer {
+    background-color: #3b4859;
+    color: #fff;
 }
